@@ -340,6 +340,82 @@ header, .navbar {
     .card-text {
         font-size: 14px;
     }
+}
 
-    
+@media(max-width: 550px) {
+
+    /*SLIDER*/
+
+    #mainSlider {
+        margin-top: 80px;
+    }
+
+    #mainSlider .carousel-caption {
+        top: 5%;
+    }
+
+    #mainSlider .carousel-caption h2 {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    #mainSlider .carousel-caption p {
+        display: none;
+    }
+
+    .carousel-caption .main-btn {
+        font-size: 12px;
+    }
+
+    /*SOBRE A BARBER*/
+
+    .main-title {
+        font-size: 30px;
+    }
+
+    #about-area img {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    /*DADOS*/
+
+    #data-area .circle-box {
+       width: 50%;
+    }
+
+    /*TIME*/
+
+    #team-area .col-md-3 {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    /*FOOTER*/
+
+    #contact-area .contact-box{
+        border: none;
+        width: 50%;
+        margin-bottom: 0;
+    }
+
+    .contact-box i {
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .contact-title {
+        font-size: 13.5px;
+    }
+
+    .contact-box p {
+        font-size: 12.5px;
+    }
+
+    #contact-area .click {
+        font-size: 14px;
+        width: 100%;
+    }
 }

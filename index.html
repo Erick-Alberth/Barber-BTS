@@ -13,8 +13,7 @@
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!--Font Awesome (Biblioteca de icons)-->
     <script src="https://kit.fontawesome.com/68fe1a5d59.js" crossorigin="anonymous"></script>
     <!--Progress Bar-->
@@ -64,7 +63,7 @@
                 <div class="carousel-inner"><!--conteudo-->
                     <div class="carousel-item active">
                         <img src="img/banner0.jpg" class="d-block w-100" alt="Corte Conosco">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption d-md-block">
                             <h2>Querendo um corte diferenciado?</h2>
                             <p>Conte conosco, a barbearia mais bem avaliada do nordeste.</p>
                             <a href="#" class="main-btn">Veja nossos cortes</a>
@@ -73,7 +72,7 @@
 
                     <div class="carousel-item">
                         <img src="img/banner1.jpg" class="d-block w-100" alt="Cabeleireiros Profissionais">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption d-md-block">
                             <h2>Cansado de procurar "aquele" cabeleireiro?</h2>
                             <p>Temos os melhores Profissionais da região.</p>
                             <a href="#" class="main-btn">Entre em contato</a>
@@ -82,7 +81,7 @@
    
                     <div class="carousel-item">
                         <img src="img/banner2.jpg" class="d-block w-100" alt="Corte Conosco">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption d-md-block">
                             <h2>Não sabe qual estilo escolher?</h2>
                             <p>Marque um corte com a gente que vamos fazer uma análise detalhada.</p>
                             <a href="#" class="main-btn">Entre em Contato</a>
@@ -132,51 +131,53 @@
                 </div>
             </div>
             <!--cortes-->
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-12">
-                        <h3 class="main-title">Cortes</h3>
+            <div id="cut-area">
+                <div class="container">
+                    <div class="row">
+    
+                        <div class="col-12">
+                            <h3 class="main-title">Cortes</h3>
+                        </div>
+    
+                        <div class="col-md-4 cut-box">
+                            <img src="img/tesoura.png" alt="Tesoura">
+                            <h4>Tesoura</h4>
+                            <p>R$12</p>
+                        </div>
+    
+                        <div class="col-md-4 cut-box">
+                            <img src="img/barbeador.png" alt="Máquina">
+                            <h4>Máquina</h4>
+                            <p>R$10</p>
+                        </div>
+    
+                        <div class="col-md-4 cut-box">
+                            <img src="img/navalha.png" alt="">
+                            <h4>Navalhado</h4>
+                            <p>R$15</p>
+                        </div>
+    
+                        <div class="col-md-4 cut-box">
+                            <img src="img/barba.png" alt="Barba">
+                            <h4>Barba</h4>
+                            <p>R$8</p>
+                        </div>
+    
+                        <div class="col-md-4 cut-box">
+                            <img src="img/tesoura+navalha.png" alt="Tesoura + Navalha">
+                            <h4>Tesoura + Navalha</h4>
+                            <p>R$25</p>
+                        </div>
+    
+                        <div class="col-md-4 cut-box">
+                            <img src="img/tesoura+maquina.png" alt="Tesoura + Máquina">
+                            <h4>Tesoura + Máquina</h4>
+                            <p>R$20</p>
+                        </div>
+                        
                     </div>
-
-                    <div class="col-md-4 cut-box">
-                        <img src="img/tesoura.png" alt="Tesoura">
-                        <h4>Tesoura</h4>
-                        <p>R$12</p>
-                    </div>
-
-                    <div class="col-md-4 cut-box">
-                        <img src="img/barbeador.png" alt="Máquina">
-                        <h4>Máquina</h4>
-                        <p>R$10</p>
-                    </div>
-
-                    <div class="col-md-4 cut-box">
-                        <img src="img/navalha.png" alt="">
-                        <h4>Navalhado</h4>
-                        <p>R$15</p>
-                    </div>
-
-                    <div class="col-md-4 cut-box">
-                        <img src="img/barba.png" alt="Barba">
-                        <h4>Barba</h4>
-                        <p>R$8</p>
-                    </div>
-
-                    <div class="col-md-4 cut-box">
-                        <img src="img/tesoura+navalha.png" alt="Tesoura + Navalha">
-                        <h4>Tesoura + Navalha</h4>
-                        <p>R$25</p>
-                    </div>
-
-                    <div class="col-md-4 cut-box">
-                        <img src="img/tesoura+maquina.png" alt="Tesoura + Máquina">
-                        <h4>Tesoura + Máquina</h4>
-                        <p>R$20</p>
-                    </div>
-                    
                 </div>
-            </div>
+            </div>         
             <!--dados-->
             <div id="data-area">
                 <div class="container">

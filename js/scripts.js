@@ -111,5 +111,39 @@ $(document).ready(function() { //espera todo o documento ser carregado
         $('#data-area').parallax({imageSrc: 'img/parallax.jpeg'});
 
     }, 250);
+    /////////////////////////////////////////////////
+    // scroll para seções
+
+    let navBtn = $('.nav-item');
+
+    let carouselSection = $('#mainSlider');
+    let aboutSection = $('#about-area');
+    let cutSection = $('#cut-area');
+    let teamSection = $('#team-area');
+    let contactSection = $('#contact-area');
+
+    let scrollTo = '';
+
+    $(navBtn).click(function() {
+
+        let btnId = $(this).attr('id'); //pegando o id do botão clicado
+
+        if(btnId == 'about-menu') {
+            scrollTo = aboutSection;
+        } else if (btnId == 'cut-menu') {
+            scrollTo = cutSection;
+        } else if (btnId == 'team-menu') {
+            scrollTo = teamSection;
+        } else if (btnId == 'contact-menu') {
+            scrollTo = contactSection;
+        } else {
+            scrollTo = carouselSection;
+        }
+
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $(scrollTo).offset().top - 70
+        }, 250);
+        
+    });
 });
 
